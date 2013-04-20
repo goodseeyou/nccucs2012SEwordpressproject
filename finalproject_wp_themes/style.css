@@ -1,0 +1,180 @@
+/*
+ Theme Name:finalproject_wp_themes
+ Theme URI: george00311@hotmail.com
+ Description: 此為20120528新版本2.0
+ Version:2.0
+ Author:PHPgroup
+ Author URI:george00311@hotmail.com
+ Tags:Wordpress,2欄
+ */
+
+/* container style  blue #55A8FF */
+#header 
+{
+
+    background-color : #c4c4c4;
+    opacity: 0.8;
+    
+    
+    margin-left:auto;
+    margin-right:auto;
+
+    padding:0px;
+    
+    width:100%; /*寬度*/
+    position:fixed; /*固定位置定位*/
+    left:0;
+    top:0; /*距離上方 0 像素*/
+    z-index:1; /*重疊時會在其他元素之上*/
+
+}
+#header h1 a
+{
+    font-size:30px;
+    font-family:fantasy;
+
+    text-align:center;
+    color:#fff;
+    text-decoration : none;
+    
+    
+}
+#container
+{
+    margin-top:100px;
+    margin-left:auto;
+    margin-right:auto;
+    border-top:2px #dfdfe0 solid;
+    border-bottom:2px #dfdfe0 solid;
+}
+#container{width: 980px;}
+
+.box 
+{
+    padding :20px;
+    margin-top:5px;
+    margin-bottom:5px;
+    display: inline-block;
+    width: 200px;
+    vertical-align:top;
+    position: relative;
+    background: #fff;    
+}
+.box a  
+{
+
+    font-size: 20px;
+    font-family: monospace;
+    text-decoration : none; 
+    color : #000;
+}
+.box p
+{
+    font-size: 16px;
+    font-family: fantasy;
+    color : #636363;
+    height:150px;
+    overflow:hidden; /* 超出的部分隱藏，避免控制圖片大小失敗而引起的撐開變形*/   
+}
+
+
+
+
+/*Image Size */
+.box img
+{
+
+    height:270px;
+    width:200px; /* 圖片的大小為500px*/ 
+    width:expression(this.width > 500 ? "500px" : this.width);
+    overflow:hidden; /* 超出的部分隱藏，避免控制圖片大小失敗而引起的撐開變形*/ 
+}
+
+
+/*hover effect*/
+
+.box:hover 
+{
+    Background: #55A8FF;
+    color : #fff;
+    
+}
+.box:hover a
+{
+    Background: #55A8FF;
+    color : #fff;}
+.box:hover p
+{
+    Background: #55A8FF;
+    color : #fff;}
+
+
+/*文章內文*/
+
+#content
+{
+
+    margin-left:auto;
+    margin-right:auto;
+    width:900px;
+    
+    margin-top:100px;
+    border-width:2px;
+    border-style:solid;
+    border-right-color:#A0A0A0;
+    border-left-color:#A0A0A0;
+    border-bottom-width:0px;
+    border-top-width:0px;
+    
+}
+.entry-title
+{
+    font-size :20px;
+    font-family :fantasy;
+}
+#content .entry-content
+{
+    font-size :16px;
+    font-family :fantasy;
+    
+    margin-left:60px;
+    margin-right:60px;
+}
+.alignnone
+{
+    margin-left:0px;
+    margin-right:0px;
+}
+
+#text1{display:none;}
+#text2{display:none;}
+#text3{display:none;}
+#text4{display:none;}
+#text5{display:none;}
+#text6{display:none;}
+#text7{display:none;}
+#text8{display:none;}
+#text9{display:none;}
+#text10{display:none;}
+#text11{display:none;}
+#text12{display:none;}
+
+
+iframe
+{
+    background:rgba(0,155,255,0.95) none repeat scroll !important; /*实现FF背景透明，文字不透明*/
+   /* background:rgba(130,0,127,0.60) none repeat scroll !important; /*实现FF背景透明，文字不透明*/
+
+
+}
+
+#comment_content
+{
+    color:fff;
+    opacity:0.9;
+}
+#comment_author
+{
+    
+    
+}
